@@ -8,6 +8,8 @@ body {
   background-color: #8589bb;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
@@ -23,9 +25,9 @@ header {
 }
 
 .game {
-  width: 80%;
+  width: 90%;
+  max-width: 1540px;
   margin-top: 50px;
-  justify-content: center;
 }
 
 #game div {
